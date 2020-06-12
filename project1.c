@@ -155,7 +155,6 @@ int main(int argc, char *argv[]) {
   // Free the RGB image
   av_free(buffer);
   av_free(pFrameRGB);
-  
   // Free the YUV frame
   av_free(pFrame);
   
